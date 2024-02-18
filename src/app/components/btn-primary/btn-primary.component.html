@@ -3,10 +3,10 @@
     [disabled]="disabled"
     (click)="submit()">
 
-    <span *ngIf="!loading">
+    @if(!loading) {
         {{ btnText }}
-    </span>
-    <span *ngIf="loading">
+    } @else {
         carregando...
-    </span>
+    }
+    
 </button>
