@@ -8,8 +8,10 @@
 ![typescript][TYPESCRIPT__BADGE]
 ![javascript][JAVASCRIPT__BADGE]
 
-![landing-page](https://github.com/JoneilsonLima/landing-page-angular-17/assets/73480168/91dde26c-5ba8-43e6-88c7-bccd4c5c1534)
-
 <h2 id="started">📌 Sobre</h2>
 
-Landing Page construída com Angular 17 usando mecanismo SSR
+Landing Page construída com Angular 17 usando mecanismo SSR, feita para praticar algumas das novidades do Angular 17
+
+![landing-page](https://github.com/JoneilsonLima/landing-page-angular-17/assets/73480168/91dde26c-5ba8-43e6-88c7-bccd4c5c1534)
+
+
