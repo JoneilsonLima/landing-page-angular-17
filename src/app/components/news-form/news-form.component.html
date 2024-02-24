@@ -14,11 +14,16 @@
         temp
       </p>
   </div>
-  <form>
+  <form [formGroup]="formGroup">
     <label for="name">Name</label>
-    <input id="name"/>
+    <input id="name" formControlName="name"/>
     <label for="email">Email</label>
-    <input id="email"/>
-    <btn-primary btn-text="se inscreva" variant="secondary"/>
+    <input id="email" formControlName="email"/>
+    <btn-primary 
+        [disabled]="!formGroup.valid"
+        (onSubmit)="onSubimit()" 
+        btn-text="se inscreva" 
+        variant="secondary"
+        />
   </form>
 </section>
